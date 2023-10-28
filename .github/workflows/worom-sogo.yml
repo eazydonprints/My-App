@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Worom Sogo </title>
+</head>
+<body>
+	<h1 style="color:green;"> Worom Sogo </h1>
+	<p>
+	Gasi ha ye bwei!! </p>
+</body>
+</html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width" with= device-width, initial-scale= 2.0>
+	<style>
+		#navbar {
+			width: 100rw;
+			height: 40px;
+			border: 3px solid white;
+			border-radius: 15px;
+			background-color: green;
+		}
+		#navbar img {
+			display: block;
+			width: 40px;
+			height: 40px;
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+	<nav id="navbar">
+		<img src="5.jpg" alt="logo image">
+	</nav>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/a076d05399.js"> </script>
+</head>
+<body>
+	<ul>
+		<li>
+			<a href="#" class="active">
+				<i class="fas fa-homeicon"></i>
+				Home
+			</a>
+		</li>
+		<li><a href="#">
+			<i class="fas fa-rss icon"></i>
+			News
+		</a>
+	</li>
+	<li><a href="#">
+		<i class="fas fa-address-book icon"></i>
+		Contact
+	</a>
+</li>
+<li><a href="#">
+	<i class="fas fa-user icon"></i>
+	About
+</a>
+</li>
+	</ul>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content= "IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Loginpage.css">
+	<title> Login Page </title>
+</head>
+<body>
+	<h1>Login</h1>
+	<form action="">
+		<!--Headings for the form-->
+		<div class="headingsContainer">
+			<h3> Sign in </h3>
+			<p> Sign in with your username and password </p>
+		</div>
+
+		<!--Main container for all inputs-->
+		<div class="maincontainer">
+
+			<!--Username-->
+			<label for="username"> Your username </label>
+			<input style="text" placeholder="Enter username" name="username" required>
+			<br><br>
+
+			<!--Password-->
+			<label for="pswrd"> Your password </label>
+			<input type="Password" placeholder="Enter password" name="pswrd" required>
+
+			<!--Sub container for the checkbox and forgot password link-->
+			<div class="subcontainer">
+				<label>
+					<input type="checkbox" checked= "checked" name="remember"> Remember me </label>
+					<p class="fortpsd"><a href="#"> Forgot password? </a></p>
+				</div>
+
+				<!--Submit button-->
+				<button type="submit"> Login </button>
+
+				<!--Sign up link-->
+				<button type="Register"> Not a member? <a href="#"> Register here! </a></button>
+			</div>
+		</form>
+	</body>
+	</html>
